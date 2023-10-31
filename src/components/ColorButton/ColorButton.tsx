@@ -11,12 +11,12 @@ interface Props {
 
 export default function ColorButton({color, selected, onClick}: Props) {
   return (
-    <button className={style.button}>
+    <button className={classNames({
+      [style.button]: true,
+      [style.button_selected]: selected,
+    })}>
       <div
-        className={classNames({
-          [style.button__color]: true,
-          [style.button_selected]: selected,
-        })}
+        className={style.button__color}
         style={{
             backgroundColor: color,
             opacity: 0.8
