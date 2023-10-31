@@ -32,13 +32,7 @@ export default function CatalogLayout({ category }: Props) {
       </div>
 
       <div className={phones.products}>
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
+
       </div>
     </div>
   )
