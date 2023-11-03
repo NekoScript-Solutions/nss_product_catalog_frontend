@@ -37,7 +37,7 @@ export default function Footer() {
         </a>
 
         <a
-          href='https://github.com/NekoScript-Solutions'
+          href='https://github.com/orgs/NekoScript-Solutions/people'
           className='footer__links__element'
           target='_blank'
         >
