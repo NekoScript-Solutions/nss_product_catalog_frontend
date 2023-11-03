@@ -30,7 +30,7 @@ export default function ProductPage() {
 			? (
 				<h1 style={{ textAlign: 'center'}}>Unable to load the product, try again later</h1>
 			) : (
-				<div className={`${style.page} ${grid.template} animate__animated animate__fadeInLeft`}>
+				<div className={`${style.page} ${grid.template} animate__animated animate__fadeInDownBig`}>
 					<BreadCrumbs category={category} productName={selectedProduct.name} />
 
 					<h1 className={`${style.page__title} ${style.title}`}>{selectedProduct.name}</h1>
